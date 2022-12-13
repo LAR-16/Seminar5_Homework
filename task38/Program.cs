@@ -13,7 +13,7 @@ void FindDiff(double[] array)
         if( array[i] > max) max = array[i];
         else if (array[i] < min) min = array[i];
     diff = max - min;
-    Console.WriteLine($"Разница между максимальным и минимальным числами = {diff}");
+    Console.WriteLine($"Разница между максимальным и минимальным числами = {Math.Round(diff, 2)}");
 }
 
 Console.Clear();
